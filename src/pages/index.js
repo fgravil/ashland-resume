@@ -108,8 +108,8 @@ const IndexPage = () => (
           <div className="container">
             <div className="row">
               {config.portfolio.items.map((item, index) => (
-                <div className="col-md-4">
-                  <ImageCard {...item} key={index} />
+                <div className="col-md-4" key={index}>
+                  <ImageCard {...item} />
                 </div>
               ))}
             </div>

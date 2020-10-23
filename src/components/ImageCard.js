@@ -7,6 +7,7 @@ const ImageCard = ({ title, img, description, url }) => (
       className="card-img-top"
       width="100"
       height="225"
+      alt=""
     ></img>
     <div className="card-body">
       <h6 class="card-title">{title}</h6>
@@ -17,6 +18,7 @@ const ImageCard = ({ title, img, description, url }) => (
         role="button"
         aria-pressed="true"
         target="_blank"
+        rel="noreferrer"
       >
         View
       </a>

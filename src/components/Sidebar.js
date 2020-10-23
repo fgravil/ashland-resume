@@ -4,7 +4,7 @@ import Scroll from './Scroll';
 
 import avatar from '../assets/images/profile.jpg';
 import config from '../../config';
-
+import { Collapse, Navbar, NavbarToggler, NavbarBrand } from 'reactstrap';
 export class Sidebar extends Component {
   constructor(props) {
     super(props);
@@ -15,19 +15,24 @@ export class Sidebar extends Component {
         { content: 'Leadership and Development', href: 'leadership' },
         { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Portfolio', href: 'portfolio' }
+        { content: 'Portfolio', href: 'portfolio' },
       ],
+      collapsed: false,
     };
   }
 
+  toggleNavbar = () => {
+    this.setState((state) => ({ ...state, collapsed: !state.collapsed }));
+  };
+
   render() {
-    const { tabs } = this.state;
+    const { tabs, collapsed } = this.state;
     return (
-      <nav
+      <Navbar
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
         id="sideNav"
       >
-        <a className="navbar-brand" href="#page-top">
+        <NavbarBrand href="#page-top" className="mr-auto">
           <span className="d-block d-lg-none">
             {config.firstName} {config.lastName}
           </span>
@@ -38,19 +43,9 @@ export class Sidebar extends Component {
               alt=""
             />
           </span>
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        </NavbarBrand>
+        <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
           <Scrollspy
             items={tabs.map((s) => s.href)}
             currentClassName="active"
@@ -70,8 +65,8 @@ export class Sidebar extends Component {
               );
             })}
           </Scrollspy>
-        </div>
-      </nav>
+        </Collapse>
+      </Navbar>
     );
   }
 }

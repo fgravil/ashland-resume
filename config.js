@@ -1,7 +1,7 @@
 const REPOSITORY = 'gatsby-resume-template';
 const FIRST_NAME = 'Ashland';
 const LAST_NAME = 'Gravil';
-const TWITTER_USERNAME = 'awesome-developer'; 
+// const TWITTER_USERNAME = 'awesome-developer'; 
 const LINKEDIN_USERNAME = 'ashlandg';
 const PHONE_NUMBER = '407-517-8604';
 const ADDRESS = 'Orlando, Fl';
