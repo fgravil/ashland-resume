@@ -17,7 +17,7 @@ export class Sidebar extends Component {
         { content: 'Skills', href: 'skills' },
         { content: 'Portfolio', href: 'portfolio' },
       ],
-      collapsed: false,
+      collapsed: true,
     };
   }
 
