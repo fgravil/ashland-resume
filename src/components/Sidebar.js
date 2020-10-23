@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/cto-ai.png';
+import avatar from '../assets/images/profile.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -71,15 +71,6 @@ export class Sidebar extends Component {
             })}
           </Scrollspy>
         </div>
-        <small className="d-none d-lg-block text-white">
-          Generated with the{' '}
-          <a
-            href={`${config.footerUrl}`}
-            className="text-light sidebar-footer-link"
-          >
-            Ops Platform
-          </a>
-        </small>
       </nav>
     );
   }

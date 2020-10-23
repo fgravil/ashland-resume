@@ -1,15 +1,7 @@
 {
   "name": "gatsby-starter-resume",
   "version": "0.0.1",
-  "description": "CTO.ai Gatsby.js Resume starter template",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cto-ai/gatsby-resume-template.git"
-  },
-  "author": {
-    "name": "CTO.ai",
-    "email": "support@cto.ai"
-  },
+  "description": "Resume Website",
   "dependencies": {
     "gatsby": "^2.22.3",
     "gatsby-plugin-manifest": "^2.4.8",
@@ -37,15 +29,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cto.ai",
-    "ops",
     "gatsby",
     "gatsby-starter",
     "gatsby-starter-resume"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cto-ai/gatsby-resume-template/issues"
-  },
-  "homepage": "https://github.com/cto-ai/gatsby-resume-template#readme"
+  "license": "MIT"
 }

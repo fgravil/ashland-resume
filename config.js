@@ -1,69 +1,73 @@
 const REPOSITORY = 'gatsby-resume-template';
-const FIRST_NAME = 'Jane';
-const LAST_NAME = 'Doe';
-const GITHUB_USERNAME = 'awesome-developer';
-const TWITTER_USERNAME = 'awesome-developer';
-const LINKEDIN_USERNAME = 'awesome-developer';
-const PHONE_NUMBER = '604-XXX-XXXX';
-const ADDRESS = 'Vancouver';
-const EMAIL = 'jane.doe@email.com';
-const FOOTER_URL = 'https://www.cto.ai';
+const FIRST_NAME = 'Ashland';
+const LAST_NAME = 'Gravil';
+const TWITTER_USERNAME = 'awesome-developer'; 
+const LINKEDIN_USERNAME = 'ashlandg';
+const PHONE_NUMBER = '407-517-8604';
+const ADDRESS = 'Orlando, Fl';
+const EMAIL = 'ashlandg2000@gmail.com';
+const FOOTER_URL = '';
 
 const BIO = `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`;
+Ashland is a content creator with excellent communication skills, both written and oral. She is interested in executing projects,
+writing press releases, and strengthening her programming skills.`;
 
 const EXPERIENCE_LIST = [
   {
-    title: 'Title 1',
-    company: 'Company 1',
+    title: 'Career and Technical Education Summer Intern',
+    company: 'Orange County Public Schools',
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`,
-    period: 'January 2019 - present',
+      Assisted the LaunchEd program in the areas of diagnosing non-functioning devices, cleaning and preparing devices
+      for distribution and inventory tasks that has helped schools prepare for the upcoming school year.
+      Helped foster an increase in student interaction, boost employee and student leadership and create efficient
+      learning opportunities.`,
+    period: 'January 2017 - August 2017',
   },
   {
-    title: 'Title 2',
-    company: 'Company 2',
+    title: 'Barista and Food Server',
+    company: 'Panera Bread',
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`,
-    period: 'April 2018 - January 2019',
+      Communicated clearly and positively with coworkers and management while maintaining high standards of
+      customer service during high volume, fast-paced operations.
+      Following procedures for safe food preparation, assembly, and presentations under company guidelines.`,
+    period: 'June 2017 - August 2017',
+  },
+];
+
+const LEADERSHIP = [
+  {
+    title: 'Student Body Member',
+    company: 'Association of Latino Professionals for America (ALPFA)',
+    description: `
+      Attend technical workshops biweekly to grow professional skillsets through business interactions and job assignments.
+      Network with Fortune 500 Companies.`,
+    period: 'January 2020 - Present',
   },
   {
-    title: 'Title 3',
-    company: 'Company 3',
+    title: 'NSBE Coder',
+    company: 'National Security of Black Engineers',
     description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`,
-    period: 'December 2015 - April 2018',
+      Worked on projects to develop coding skills using various applications and programs.`,
+    period: 'January 2020 - Present',
+  },
+  {
+    title: 'Design Summit',
+    company: 'Facebook Design',
+    description: `
+      Developed user interface skills through in-depth portfolio reviews.
+      Researched emerging markets and factors that influenced it such as: developing infrastructure, language diversity,
+      extreme gender disparities, etc.`,
+    period: 'June 2020',
   },
 ];
 
 const EDUCATION_LIST = [
   {
-    institution: 'Institution 1',
-    qualification: 'Qualification 1',
-    description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-    period: '2015',
-  },
-  {
-    institution: 'Institution 2',
-    qualification: 'Qualification 2',
-    description: `
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-    period: '2012',
+    institution: 'University of Florida',
+    qualification: 'Bachelor of Science in Advertising',
+    description: `I'm currently attending the University of Florida to obtain a Bachelor of Science degree in Advertising with a focus in Persuasive Messaging. 
+    I’m willing to sharpen and even broaden my understanding to best prepare and equip me for a rewarding career in Advertising.`,
+    period: '2018-2022',
   },
 ];
 
@@ -71,39 +75,38 @@ const LANGUAGES_AND_TOOLS = [
   { name: 'HTML5', iconClass: 'fa-html5' },
   { name: 'CSS3', iconClass: 'fa-css3-alt' },
   { name: 'Javascript', iconClass: 'fa-js-square' },
-  { name: 'Angular', iconClass: 'fa-angular' },
-  { name: 'React', iconClass: 'fa-react' },
-  { name: 'NodeJS', iconClass: 'fa-node-js' },
-  { name: 'SASS', iconClass: 'fa-sass' },
-  { name: 'LESS', iconClass: 'fa-less' },
-  { name: 'Wordpress', iconClass: 'fa-wordpress' },
-  { name: 'Gulp', iconClass: 'fa-gulp' },
-  { name: 'Grunt', iconClass: 'fa-grunt' },
-  { name: 'NPM', iconClass: 'fa-npm' },
-  { name: 'R', iconClass: 'fa-r-project' },
+  { name: 'Java', iconClass: 'fa-java' },
 ];
 
-const SKILLS = ['Skill 1', 'Skill 2', 'Skill 3', 'Skill 4', 'Skill 5'];
+const SKILLS = [
+  'Java Programming',
+  'Microsoft Office 365 Suite',
+  'Adobe Certified Associate',
+  'Persuasive Messaging',
+  'Public Speaking',
+];
 
 const PORTFOLIO = {
-  introParagraphs: [
-    `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-    `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt anim id est laborum.`,
-  ],
   items: [
     {
-      name: 'First portfolio item',
-      description:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
-      url: 'https://github.com/user/repo',
+      title: 'Content Marketing Strategy',
+      img: 'cookie.png',
+      description: `Ashland's content marketing strategy campaign for 'Midnight Cookies', a local cookie shop.`,
+      url:
+        'https://48d0217e-e1a1-41bc-945a-41b4f1c7a589.filesusr.com/ugd/e0f0a8_e2a01bd6457f41f1b2d90c38fa8cf8b3.pdf',
     },
     {
-      name: 'Second portoflio item name',
-      description:
-        'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
-      url: 'https://github.com/user/repo',
+      title: 'Place-Based Branding',
+      img: 'shock.jpg',
+      description: `Ashland's place-based branding piece on the Multicultural and Diversity Affairs at the University of Florida`,
+      url: 'https://spark.adobe.com/page/zTTehIoJTHoHh/',
+    },
+    {
+      title: 'Press Release',
+      img: 'press-release.jpg',
+      description: `Ashland's trade journals press releases`,
+      url:
+        'https://documentcloud.adobe.com/link/track/?pageNum=3&uri=urn%3Aaaid%3Ascds%3AUS%3A3e4ab079-2e51-4f75-9127-77f0d6cb808f#pageNum=3',
     },
   ],
 };
@@ -124,7 +127,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/cto-ai.png',
+  manifestIcon: 'src/assets/images/profile.jpg',
   pathPrefix: `/${REPOSITORY}`, // This path is subpath of your hosting https://domain/portfolio
   firstName: FIRST_NAME,
   lastName: LAST_NAME,
@@ -142,23 +145,25 @@ module.exports = {
   certifications: CERTIFICATIONS,
   // portfolio
   portfolio: PORTFOLIO,
+
+  leadership: LEADERSHIP,
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: `https://github.com/${GITHUB_USERNAME}`,
-    },
+    // {
+    //   icon: 'fa-github',
+    //   name: 'Github',
+    //   url: `https://github.com/${GITHUB_USERNAME}`,
+    // },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: `https://linkedin.com/in/${LINKEDIN_USERNAME}`,
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: `https://twitter.com/${TWITTER_USERNAME}`,
-    },
+    // {
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: `https://twitter.com/${TWITTER_USERNAME}`,
+    // },
   ],
   email: EMAIL,
   phone: PHONE_NUMBER,
