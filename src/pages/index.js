@@ -59,7 +59,7 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
+        id="leadership"
       >
         <div className="w-100">
           <h2 className="mb-5">Leadership and Professional Development</h2>

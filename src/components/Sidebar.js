@@ -12,10 +12,10 @@ export class Sidebar extends Component {
       tabs: [
         { content: 'About', href: 'about' },
         { content: 'Experience', href: 'experience' },
+        { content: 'Leadership and Development', href: 'leadership' },
         { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Portfolio', href: 'portfolio' },
-        { content: 'Certifications', href: 'certifications' },
+        { content: 'Portfolio', href: 'portfolio' }
       ],
     };
   }
