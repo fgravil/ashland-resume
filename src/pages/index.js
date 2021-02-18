@@ -32,8 +32,8 @@ const IndexPage = () => (
             {config.socialLinks.map((social) => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url}>
-                  <i className={`fab ${icon}`}></i>
+                <a key={url} href={url} target="_blank">
+                  <i className={icon}></i>
                 </a>
               );
             })}

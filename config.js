@@ -102,12 +102,17 @@ const PORTFOLIO = {
       url: 'https://spark.adobe.com/page/zTTehIoJTHoHh/',
     },
     {
-      title: 'Press Release',
+      title: 'Press Release + Business Analyses',
       img: 'press-release.jpg',
-      description: `Ashland's trade journals press releases`,
-      url:
-        'https://documentcloud.adobe.com/link/track/?pageNum=3&uri=urn%3Aaaid%3Ascds%3AUS%3A3e4ab079-2e51-4f75-9127-77f0d6cb808f#pageNum=3',
+      description: `Ashland's trade journals press releases and business analyses using advertising strategies`,
+      url: '/Business_Analysis_Press_Release.pdf',
     },
+    {
+      title: 'MealKit Delivery Service',
+      img: 'mealkit.png',
+      description: `Ashland participated in creating an advertising strategy for Home Chef, a meal-kit and delivery service. Her role was, but not limited to: researching data that is going on within the industry and company to create a comprehensive situation analysis. She identified the problems and opportunities to create an opportunities recommendation.`,
+      url: '/MealKit_Plansbook.pdf'
+    }
   ],
 };
 
@@ -128,6 +133,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/profile.jpg',
+  plugins: [`gatsby-plugin-fontawesome-css`],
   pathPrefix: `/${REPOSITORY}`, // This path is subpath of your hosting https://domain/portfolio
   firstName: FIRST_NAME,
   lastName: LAST_NAME,
@@ -155,15 +161,15 @@ module.exports = {
     //   url: `https://github.com/${GITHUB_USERNAME}`,
     // },
     {
-      icon: 'fa-linkedin-in',
+      icon: 'fab fa-linkedin-in',
       name: 'Linkedin',
       url: `https://linkedin.com/in/${LINKEDIN_USERNAME}`,
     },
-    // {
-    //   icon: 'fa-twitter',
-    //   name: 'Twitter',
-    //   url: `https://twitter.com/${TWITTER_USERNAME}`,
-    // },
+    {
+      icon: 'fas fa-file',
+      name: 'Resume',
+      url: `/_Gravil_Ashland_Resume.pdf`,
+    },
   ],
   email: EMAIL,
   phone: PHONE_NUMBER,
