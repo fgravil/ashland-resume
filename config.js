@@ -9,8 +9,10 @@ const EMAIL = 'ashlandg2000@gmail.com';
 const FOOTER_URL = '';
 
 const BIO = `
-I am a content creator with excellent communication skills, both written and oral. I am interested in executing projects,
-writing press releases, and strengthening my programming skills.`;
+Hi there! I’m Ashland Gravil.
+
+I am a passionate designer, artist, creator, and thinker. Along with my excellent communication skills, both written and oral, I am interested in executing projects, writing press releases, and strengthening my programming skills. 
+My interests in design specifically include technological design, UI/UX design and graphic design.`;
 
 const EXPERIENCE_LIST = [
   {
@@ -104,37 +106,37 @@ const SKILLS = [
 const PORTFOLIO = {
   items: [
     {
-      title: 'ALPFA Graphics',
+      title: 'MealKit Delivery Service',
+      img: 'mealkit.png',
+      description: `I participated in creating an advertising strategy for Home Chef, a meal-kit and delivery service. My role was, but not limited to: researching data that is going on within the industry and company to create a comprehensive situation analysis. I identified the problems and opportunities to create an opportunities recommendation.`,
+      url: '/MealKit_Plansbook.pdf'
+    },
+    {
+      title: 'Graphic Design Content for ALPFA',
       img: 'alpfauf.jpeg',
-      description: `Content creation for ALPFAUF social media platforms.`,
+      description: `As the marketing director for ALPFA UF, I created graphic designs to be posted on social media sites such as Instagram, Linked, Facebook, and GroupMe. From our interactions on Instagram, I looked into the insights and analytics to see how the branded content increased user engagement.`,
       url:
         '/ALPFA_Graphics.pdf',
     },
     {
+      title: 'Press Release + Business Analyses',
+      img: 'press-release.jpg',
+      description: `My trade journals press releases and business analyses using advertising strategies`,
+      url: '/Business_Analysis_Press_Release.pdf',
+    },
+    {
       title: 'Content Marketing Strategy',
       img: 'cookie.png',
-      description: `Ashland's content marketing strategy campaign for 'Midnight Cookies', a local cookie shop.`,
+      description: `My content marketing strategy campaign for 'Midnight Cookies', a local cookie shop.`,
       url:
         'https://48d0217e-e1a1-41bc-945a-41b4f1c7a589.filesusr.com/ugd/e0f0a8_e2a01bd6457f41f1b2d90c38fa8cf8b3.pdf',
     },
     {
       title: 'Place-Based Branding',
       img: 'shock.jpg',
-      description: `Ashland's place-based branding piece on the Multicultural and Diversity Affairs at the University of Florida`,
+      description: `My place-based branding piece on the Multicultural and Diversity Affairs at the University of Florida`,
       url: 'https://spark.adobe.com/page/zTTehIoJTHoHh/',
     },
-    {
-      title: 'Press Release + Business Analyses',
-      img: 'press-release.jpg',
-      description: `Ashland's trade journals press releases and business analyses using advertising strategies`,
-      url: '/Business_Analysis_Press_Release.pdf',
-    },
-    {
-      title: 'MealKit Delivery Service',
-      img: 'mealkit.png',
-      description: `Ashland participated in creating an advertising strategy for Home Chef, a meal-kit and delivery service. Her role was, but not limited to: researching data that is going on within the industry and company to create a comprehensive situation analysis. She identified the problems and opportunities to create an opportunities recommendation.`,
-      url: '/MealKit_Plansbook.pdf'
-    }
   ],
 };
 
@@ -186,6 +188,11 @@ module.exports = {
       icon: 'fab fa-linkedin-in',
       name: 'Linkedin',
       url: `https://linkedin.com/in/${LINKEDIN_USERNAME}`,
+    },
+    {
+      icon: 'fab fa-instagram',
+      name: 'instagram',
+      url: 'https://www.instagram.com/ashlandx3/'
     },
     {
       icon: 'fas fa-file',
