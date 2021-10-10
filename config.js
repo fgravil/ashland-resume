@@ -190,7 +190,7 @@ module.exports = {
     {
       icon: 'fas fa-file',
       name: 'Resume',
-      url: `/_Gravil_Ashland_Resume.pdf`,
+      url: `/Gravil_Ashland_Resume.pdf`,
     },
   ],
   email: EMAIL,
