@@ -9,10 +9,26 @@ const EMAIL = 'ashlandg2000@gmail.com';
 const FOOTER_URL = '';
 
 const BIO = `
-Ashland is a content creator with excellent communication skills, both written and oral. She is interested in executing projects,
-writing press releases, and strengthening her programming skills.`;
+I am a content creator with excellent communication skills, both written and oral. I am interested in executing projects,
+writing press releases, and strengthening my programming skills.`;
 
 const EXPERIENCE_LIST = [
+  {
+    title: 'Product Strategist',
+    company: 'Turnitin, LLC',
+    description: `
+      Conducted in-depth research of higher education learning with internal and external stakeholders to implement new strategies in
+      product development at a growing EdTech company.`,
+    period: 'June 2021 - August 2021',
+  },
+  {
+    title: 'SharePoint Online Developer',
+    company: 'Pfizer Inc.',
+    description: `
+      Assessed the current site landscape, subsites, content and permissions to design the site with a simplified layout within the Clinical
+      Supply Strategy and Management (CSSM) line.`,
+    period: 'May 2021 - August 2021',
+  },
   {
     title: 'Career and Technical Education Summer Intern',
     company: 'Orange County Public Schools',
@@ -36,12 +52,12 @@ const EXPERIENCE_LIST = [
 
 const LEADERSHIP = [
   {
-    title: 'Student Body Member',
+    title: 'Marketing Director',
     company: 'Association of Latino Professionals for America (ALPFA)',
     description: `
-      Attend technical workshops biweekly to grow professional skillsets through business interactions and job assignments.
-      Network with Fortune 500 Companies.`,
-    period: 'January 2020 - Present',
+      Stimulate awareness of ALPFA throughout UF by creating slides for the Business School TV and Undergraduate Newsletter while
+      creating content for ALPFAUF social media platforms.`,
+    period: 'January 2019 - Present',
   },
   {
     title: 'NSBE Coder',
@@ -75,11 +91,10 @@ const LANGUAGES_AND_TOOLS = [
   { name: 'HTML5', iconClass: 'fa-html5' },
   { name: 'CSS3', iconClass: 'fa-css3-alt' },
   { name: 'Javascript', iconClass: 'fa-js-square' },
-  { name: 'Java', iconClass: 'fa-java' },
 ];
 
 const SKILLS = [
-  'Java Programming',
+  'Certified Internet Web Professional (CIW Internet business associate),',
   'Microsoft Office 365 Suite',
   'Adobe Certified Associate',
   'Persuasive Messaging',
@@ -88,6 +103,13 @@ const SKILLS = [
 
 const PORTFOLIO = {
   items: [
+    {
+      title: 'ALPFA Graphics',
+      img: 'alpfauf.jpeg',
+      description: `Content creation for ALPFAUF social media platforms.`,
+      url:
+        '/ALPFA_Graphics.pdf',
+    },
     {
       title: 'Content Marketing Strategy',
       img: 'cookie.png',
