@@ -16,7 +16,14 @@ My interests in design specifically include technological design, UI/UX design a
 
 const EXPERIENCE_LIST = [
   {
-    title: 'Product Strategist',
+    title: 'PwC Externship',
+    company: 'PwC',
+    description: `
+    Analyze and evaluate challenges from non-profit organizations using consulting frameworks to help solve important business problems such as development, impact assessment, policy issues, and strategic positions.`,
+    period: 'June 2021 - August 2021',
+  },
+  {
+    title: 'Product Strategist Intern',
     company: 'Turnitin, LLC',
     description: `
       Conducted in-depth research of higher education learning with internal and external stakeholders to implement new strategies in
@@ -24,7 +31,7 @@ const EXPERIENCE_LIST = [
     period: 'June 2021 - August 2021',
   },
   {
-    title: 'SharePoint Online Developer',
+    title: 'SharePoint Online Developer Intern',
     company: 'Pfizer Inc.',
     description: `
       Assessed the current site landscape, subsites, content and permissions to design the site with a simplified layout within the Clinical
@@ -62,13 +69,6 @@ const LEADERSHIP = [
     period: 'January 2019 - Present',
   },
   {
-    title: 'NSBE Coder',
-    company: 'National Security of Black Engineers',
-    description: `
-      Worked on projects to develop coding skills using various applications and programs.`,
-    period: 'January 2020 - Present',
-  },
-  {
     title: 'Design Summit',
     company: 'Facebook Design',
     description: `
@@ -101,6 +101,8 @@ const SKILLS = [
   'Adobe Certified Associate',
   'Persuasive Messaging',
   'Public Speaking',
+  'Microsoft Sharepoint Designer',
+  'Content Strategy'
 ];
 
 const PORTFOLIO = {
@@ -117,6 +119,12 @@ const PORTFOLIO = {
       description: `As the marketing director for ALPFA UF, I created graphic designs to be posted on social media sites such as Instagram, Linked, Facebook, and GroupMe. From our interactions on Instagram, I looked into the insights and analytics to see how the branded content increased user engagement.`,
       url:
         '/ALPFA_Graphics.pdf',
+    },
+    {
+      title: 'Tesla Brand Analysis',
+      img: 'tesla.png',
+      description: `In Progress: I developed a social media marketing plan with a focus on branding, and the impact of social media on a brand. My role was, but not limited to in-depth research to complete a situation analysis on the marketing trends that is influencing the market position of Tesla. I researched the social media zones of Tesla, to then help my team create a social experience strategy.`,
+      url: '/Tesla_Brand_Analysis.pdf'
     },
     {
       title: 'Press Release + Business Analyses',
@@ -197,7 +205,7 @@ module.exports = {
     {
       icon: 'fas fa-file',
       name: 'Resume',
-      url: `/Gravil_Ashland_Resume.pdf`,
+      url: `/Ashland_Gravil_Resume.pdf`,
     },
   ],
   email: EMAIL,
