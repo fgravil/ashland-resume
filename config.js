@@ -108,6 +108,18 @@ const SKILLS = [
 const PORTFOLIO = {
   items: [
     {
+      title: 'Pfizer Summer Student Worker Program',
+      img: 'pfizer.png',
+      description: `I assisted Pfizer by working with the Clinical Supply Strategy & Management line, to create a better user interface for their SharePoint site. My role included: an assessment of the current site landscape, sub-sites, pages, content and permissions, and working with content owners to clean up existing content. To respect NDA policies, certain content has been omitted.`,
+      url: '/Pfizer_SharePoint_Developer.pdf'
+    },
+    {
+      title: 'Turnitin Product Strategist',
+      img: 'turnitin.png',
+      description: `One of my roles included an investigation into PeerMark, a foundational product at Turnitin that has gone through all life-cycle changes. I created a summative report and analysis of potential features that will help PeerMark remain a market leader in the industry. To respect NDA policies, certain information and data has been omitted.`,
+      url: '/PeerMark2021.pdf'
+    },
+    {
       title: 'MealKit Delivery Service',
       img: 'mealkit.png',
       description: `I participated in creating an advertising strategy for Home Chef, a meal-kit and delivery service. My role was, but not limited to: researching data that is going on within the industry and company to create a comprehensive situation analysis. I identified the problems and opportunities to create an opportunities recommendation.`,
